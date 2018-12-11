@@ -6,8 +6,7 @@ co的好处：
 	console.log(content);
 ```
 即使readSomethingAsync是异步完成的，但是当执行到console.log(content);这里的时候可以保证content的内容是我们想要的。而不需要通过在一大堆回调里对content进行赋值。这就是通过同步的方式写异步代码。
-co的大致执行流程
-![这里写图片描述](http://img.blog.csdn.net/20170716171736768?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEhFQU5BUktI/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+co的大致执行流程(http://img.blog.csdn.net/20170716171736768?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEhFQU5BUktI/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ```
 
 /**
